@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-path-delimiter-win32",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Windows path delimiter.",
   "license": "Apache-2.0",
   "author": {
