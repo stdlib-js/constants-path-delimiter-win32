@@ -20,7 +20,7 @@ limitations under the License.
 
 # Path Delimiter
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Windows path delimiter.
 
@@ -81,8 +81,8 @@ var paths = PATH.split( PATH_DELIMITER_WIN32 );
 
 ## See Also
 
--   [`@stdlib/constants/path/delimiter`][@stdlib/constants/path/delimiter]: platform-specific path delimiter.
--   [`@stdlib/constants/path/delimiter-posix`][@stdlib/constants/path/delimiter-posix]: POSIX path delimiter.
+-   <span class="package-name">[`@stdlib/constants/path/delimiter`][@stdlib/constants/path/delimiter]</span><span class="delimiter">: </span><span class="description">platform-specific path delimiter.</span>
+-   <span class="package-name">[`@stdlib/constants/path/delimiter-posix`][@stdlib/constants/path/delimiter-posix]</span><span class="delimiter">: </span><span class="description">POSIX path delimiter.</span>
 
 </section>
 
@@ -133,8 +133,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-path-delimiter-win32/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-path-delimiter-win32?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-path-delimiter-win32.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-path-delimiter-win32/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
