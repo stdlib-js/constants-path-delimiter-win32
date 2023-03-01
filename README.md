@@ -24,14 +24,30 @@ limitations under the License.
 
 > Windows path delimiter.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-path-delimiter-win32
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@deno/mod.js';
+var PATH_DELIMITER_WIN32 = require( '@stdlib/constants-path-delimiter-win32' );
 ```
 
 #### PATH_DELIMITER_WIN32
@@ -54,7 +70,7 @@ var delimiter = PATH_DELIMITER_WIN32;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@deno/mod.js';
+var PATH_DELIMITER_WIN32 = require( '@stdlib/constants-path-delimiter-win32' );
 
 var PATH = 'C:\\Windows\\system32;C:\\Windows;C:\\Program Files\\node\\';
 var paths = PATH.split( PATH_DELIMITER_WIN32 );
@@ -73,8 +89,8 @@ var paths = PATH.split( PATH_DELIMITER_WIN32 );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/path/delimiter`][@stdlib/constants/path/delimiter]</span><span class="delimiter">: </span><span class="description">platform-specific path delimiter.</span>
--   <span class="package-name">[`@stdlib/constants/path/delimiter-posix`][@stdlib/constants/path/delimiter-posix]</span><span class="delimiter">: </span><span class="description">POSIX path delimiter.</span>
+-   <span class="package-name">[`@stdlib/constants-path/delimiter`][@stdlib/constants/path/delimiter]</span><span class="delimiter">: </span><span class="description">platform-specific path delimiter.</span>
+-   <span class="package-name">[`@stdlib/constants-path/delimiter-posix`][@stdlib/constants/path/delimiter-posix]</span><span class="delimiter">: </span><span class="description">POSIX path delimiter.</span>
 
 </section>
 
@@ -89,7 +105,7 @@ var paths = PATH.split( PATH_DELIMITER_WIN32 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -151,9 +167,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/path/delimiter]: https://github.com/stdlib-js/constants-path-delimiter/tree/deno
+[@stdlib/constants/path/delimiter]: https://github.com/stdlib-js/constants-path-delimiter
 
-[@stdlib/constants/path/delimiter-posix]: https://github.com/stdlib-js/constants-path-delimiter-posix/tree/deno
+[@stdlib/constants/path/delimiter-posix]: https://github.com/stdlib-js/constants-path-delimiter-posix
 
 <!-- </related-links> -->
 
