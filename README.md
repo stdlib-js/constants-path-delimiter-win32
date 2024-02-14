@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-delimiter-win32/tags). For example,
+
+```javascript
 import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@v0.2.0-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var delimiter = PATH_DELIMITER_WIN32;
 <body>
 <script type="module">
 
-import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@v0.2.0-esm/index.mjs';
+import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@esm/index.mjs';
 
 var PATH = 'C:\\Windows\\system32;C:\\Windows;C:\\Program Files\\node\\';
 var paths = PATH.split( PATH_DELIMITER_WIN32 );
