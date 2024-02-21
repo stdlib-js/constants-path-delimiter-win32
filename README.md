@@ -148,8 +148,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-path-delimiter-win32.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-path-delimiter-win32
 
-[test-image]: https://github.com/stdlib-js/constants-path-delimiter-win32/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/constants-path-delimiter-win32/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/constants-path-delimiter-win32/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/constants-path-delimiter-win32/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-path-delimiter-win32/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-path-delimiter-win32?branch=main
