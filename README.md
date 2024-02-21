@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@esm/index.mjs';
+import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@v0.2.1-esm/index.mjs';
 ```
 
 #### PATH_DELIMITER_WIN32
@@ -70,7 +70,7 @@ var delimiter = PATH_DELIMITER_WIN32;
 <body>
 <script type="module">
 
-import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@esm/index.mjs';
+import PATH_DELIMITER_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-win32@v0.2.1-esm/index.mjs';
 
 var PATH = 'C:\\Windows\\system32;C:\\Windows;C:\\Program Files\\node\\';
 var paths = PATH.split( PATH_DELIMITER_WIN32 );
